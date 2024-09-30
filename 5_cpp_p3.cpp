@@ -42,4 +42,18 @@ int main() {
 
     return 0;
 }
- 
+/*
+Output:
+5_cpp_p3.cpp: In function `int main()':
+5_cpp_p3.cpp:38:31: error: `Person::Person(std::string, int)' is private within this context
+   38 |     Person person1("Alice", 25);
+      |                               ^
+5_cpp_p3.cpp:11:9: note: declared private here
+   11 |         Person(string name, int age) {
+      |         ^~~~~~
+5_cpp_p3.cpp:41:23: error: `void Person::print_info()' is private within this context
+   41 |     person1.print_info();
+      |     ~~~~~~~~~~~~~~~~~~^~
+5_cpp_p3.cpp:27:14: note: declared private here
+   27 |         void print_info() {
+ */

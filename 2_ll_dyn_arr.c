@@ -88,3 +88,13 @@ int main() {
     display(dynamicArray);
     return 0;
 }
+/*
+Output:
+enter the elements
+5
+8
+10
+Dynamic Array: 5 8 10
+Dynamic Array after removing index 1: 5 10
+Dynamic Array after removing element 10: 5
+ */

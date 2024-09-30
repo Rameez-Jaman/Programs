@@ -41,4 +41,7 @@ int main() {
     return 0;
 }
 
-
+/*
+Output:
+I am Jaman and I am 22 years old.
+ */

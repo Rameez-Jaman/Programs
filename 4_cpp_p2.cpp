@@ -41,4 +41,8 @@ int main() {
     return 0;
 }
 
-
+/*
+Output:
+I am Rameez and I am 22 years old.
+I am Jaman and I am 21 years old.
+*/

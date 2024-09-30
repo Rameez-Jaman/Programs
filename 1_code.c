@@ -143,4 +143,28 @@ int main() {
     free(dyn_arr);
     return 0;
 }
-
+/* Output:
+Dynamic array elements are:
+1
+Dynamic array elements are:
+1 2
+Dynamic array elements are:
+1 2 3
+Dynamic array elements are:
+1 2 3 4
+Dynamic array elements are:
+1 2 3 4 5
+Dynamic array elements are:
+1 2 3 4 5 6
+Element 1 removed successfully.
+Dynamic array elements are:
+2 3 4 5 6
+Element at index 2 removed successfully.
+Dynamic array elements are:
+2 3 5 6
+Sliced array elements are:
+3 5
+Array length: 4
+Dynamic array elements are:
+2 3 5 6
+*/
